@@ -1,6 +1,6 @@
 package easy;
 
-public class TwoSum {
+public class TwoSun {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
