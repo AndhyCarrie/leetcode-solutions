@@ -3,6 +3,7 @@ package easy;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
 public class TwoSun {
 
 	public static void main(String[] args) {
@@ -18,15 +19,16 @@ public class TwoSun {
 		int target02 = 6;
 		int result02[] = twoSum(case02, target02);
 		System.out.println(Arrays.toString(result02));
-		
-		//Case03
-		int case03[] = {3,3};
+
+		// Case03
+		int case03[] = { 3, 3 };
 		int target03 = 6;
 		int result03[] = twoSum(case03, target03);
 		System.out.println(Arrays.toString(result03));
-		
+
 	}
 
+	
 	public static int[] twoSum(int[] nums, int target) {
 
 		int n = nums.length;
@@ -52,3 +54,15 @@ public class TwoSun {
 
 	}
 }
+
+
+//NOTAS--------------------------------------------------------------------------
+//Solução criada em 27/04/2025 
+//Nível: iniciante, primeira vez resolvendo este problema
+//A medida em que eu melhorar meu conhecimento em otimização e uso de algoritmos melhores, voltarei com outra implementação
+
+//NOTES--------------------------------------------------------------------------
+//Solution created on 04/27/2025
+//Level: beginner, first time solving this problem
+//As I improve my knowledge in optimization and use of better algorithms, I will come back with another implementation
+
